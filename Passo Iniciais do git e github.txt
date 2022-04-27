@@ -1,0 +1,28 @@
+ Criando um repositorio no github
+   1 - Clicar no + no canto superior direito.
+   2 - New repository.
+   3 - No repository name inserir o nome que queira deixa o seu repositorio.
+   4 - Colocar uma descrição mostrando sobre o que é o repositorio.
+   5 - Marcar public ou private fica a seu criterio.
+   6 - Deixar marcado o README
+   7 - Clicar em create repository
+
+ Depois de criado vamos clonar ele para o repositorio local no seu computador.
+   1 - Clicar no botão code.
+   2 - Escolher de qual maneira deseja clonar o repositorio.
+   3 - Copiar o link em https.
+
+ Vamos ao git bash no computador.
+   1 - No git colocar o comando git clone e o link que foi copiado do github.
+   2 - digitar um ls para listar o repositorio.
+
+ Inserir um arquivo no repositorio
+   1 - Criar um arquivo na pasta com qualquer nome.
+   2 - Inserir conteudo dentro e salvar.
+   3 - Digite o comando git status para mostrar que o arquivo não foi comitado ainda.
+   4 - Depois digite o comando git add (nome_do_arquivo).
+   5 - git commit -m "Inserir uma mensagem".
+   6 - git status para mostrar que o arquivo foi comitado.
+   7 - Por ultimo digitar o comando git push origin main para empurrar o arquivo para o repositorio remoto (github).
+
+   
